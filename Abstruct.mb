@@ -1,0 +1,11 @@
+This project was completed as part of Group 2 assignment where the 
+required model was Random Forest. The dataset used is the Breast Cancer 
+Wisconsin dataset which contains 569 patient records with 30 numeric 
+features derived from cell nucleus measurements such as radius, texture, 
+perimeter, area and smoothness. The target variable is the diagnosis 
+which classifies tumors as Malignant or Benign. Random Forest was trained 
+and evaluated using accuracy, precision, recall, F1 score, ROC curve and 
+5-fold cross validation. Feature importance analysis revealed that 
+concave points worst, perimeter worst and radius worst are the strongest 
+predictors of malignancy. The model achieved high accuracy and AUC score 
+making it a reliable classifier for breast cancer detection.
